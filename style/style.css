@@ -1,0 +1,158 @@
+header{
+background-image: url(../images/bikecover.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+    color: blue;
+    border: 1px solid blue;
+}
+
+
+body {
+    font-family: Verdana;
+    width: 98%;
+    background-color: floralwhite;
+    color: black;
+}
+
+nav{
+    padding:0;
+    border: 10px double green;
+    background-color: khaki;
+}
+
+#content {
+    float: left;
+    width: 80%;
+    margin-right: 15px;
+    border: 1px solid grey;
+
+}
+
+#aboutUs{
+    text-align: center
+}
+
+#bigPic{
+    width: 40%
+}
+
+section.sligoBike {
+    
+    overflow: auto;
+}
+
+.col_detail {
+    
+    column-count: 3;
+    column-rule: 2px solid green;
+    column-gap: 50px;
+    padding: 2px;
+}
+
+
+
+footer{
+    clear: both;
+    border: 1px double green;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    bottom: 0px;
+    width: 100%;
+    background-color: burlywood;
+    text-align: center;
+}
+
+nav ul {
+    text-align: center;
+    font-size: 1.2em;
+}
+
+
+footer ul li {
+    list-style-type: none;
+    color: green;
+    display: inline;
+    padding: 15px;
+}
+
+#active {
+    background-color: burlywood;
+}
+
+#content {
+    float: left;
+    width: 80%;
+    border: 1px solid grey;
+}
+
+
+
+.showimages {
+    float: left;
+    width: 30%;
+    border: 2px solid blue;
+    margin: 0 10px 0 10px;
+    
+}
+
+.course{
+    text-align: center;
+    border: 1px solid green;
+    padding: 10px;
+}
+
+
+nav ul li:hover{
+    background-color: darkkhaki;
+}
+
+td {
+  text-align: center;
+    border: 1px solid black;
+}
+
+.xcpoint{
+    list-style: circle
+}
+
+.mtbtable{
+    background-color: forestgreen;
+}
+
+.roadtable{
+    background-color: dodgerblue;
+}
+
+.bmxtable{
+    background-color: darkgoldenrod;
+}
+
+.enduropoint{
+    list-style:unset
+}
+
+.dhpoint{
+    list-style: square
+}
+
+.maptext {
+    
+    column-count: 2;
+    column-rule: 2px solid darkgrey;
+    column-gap: 50px;
+    padding: 2px;
+}
+
+.poll{
+    background-color: yellow;
+    color: red;
+    text-align: center;
+    
+}
+    
+.email{
+    content: "*";
+    color: red;
+}
